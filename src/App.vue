@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <MainPage msg="L'union fait la force ... Faisons la "/>
+    <div class="img">
+      <img alt="Vue logo" src="./assets/boodoom-logo.png" />
+      <img src="./assets/pub.png" class="card-img-top" alt="image pub" />
+    </div>
+    <MainPage msg="L'union fait la force... Faisons la ! " />
   </div>
 </template>
 
 <script>
-import MainPage from './components/MainPage.vue'
+import MainPage from "./components/MainPage.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    MainPage
-  }
-}
+    MainPage,
+  },
+};
 </script>
 
 <style>
@@ -22,7 +25,14 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: white;
   margin-top: 60px;
+}
+body {
+  background-color: #0e1822;
+}
+img {
+  display: flex;
+  height: 100px;
 }
 </style>
