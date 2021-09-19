@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="main_page">
     <!-- <img src="../assets/pub.png" class="card-img-top" alt="image pub" /> -->
 
     <h1>{{ msg }}</h1>
@@ -39,6 +39,13 @@ a {
 }
 .pub {
   display: flex;
+}
+/* .main_page {
+
+} */
+h1 {
+  padding: 10px;
+  padding-bottom: 40px;
 }
 
 /* .head_pub  {

@@ -27,9 +27,12 @@ export default {
   text-align: center;
   color: white;
   margin-top: 60px;
+  height: 800px;
 }
+
 body {
   background-color: #0e1822;
+  height: 800px;
 }
 img {
   display: flex;
