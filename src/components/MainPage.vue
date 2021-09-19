@@ -1,22 +1,63 @@
 <template>
-  <div class="main_page">
-    <!-- <img src="../assets/pub.png" class="card-img-top" alt="image pub" /> -->
+  <!-- <div class="main_page"> -->
+  <!-- <div class="container-md">
+      <div class="row"> -->
 
-    <h1>{{ msg }}</h1>
-    <div class="button">
-      <button type="button" class="btn btn-danger btn-lg">
-        Média Texte photos
-      </button>
-      <button type="button" class="btn btn-success btn-lg">Large button</button>
-      <button type="button" class="btn btn-warning btn-lg">Large button</button>
-    </div>
+  <div class="container d-flex flex-wrap justify-content-center ">
+    <div class="row">
+      <video width="90%" height="240" controls>
+        <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+        type=video/ogg> <source src="/build/videos/arcnet.io(7-sec).mp4"
+        type=video/mp4>
+      </video>
+      <p>
+        Lorem Ipsum est simplement un texte factice de l'industrie de
+        l'impression et de la composition. Lorem Ipsum est le texte factice
+        standard de l'industrie depuis les années 1500, quand un imprimeur
+        inconnu a pris une galère de type et l'a brouillé pour en faire un
+        cahier de caractères. Il a survécu non seulement à cinq siècles, mais
+        aussi au saut dans la composition électronique, demeurant
+        essentiellement inchangé.
+      </p>
 
-    <div class="pub">
-      <img src="../assets/pub.png" class="card-img-top" alt="image pub" />
-      <img src="../assets/pub.png" class="card-img-top" alt="image pub" />
-      <img src="../assets/pub.png" class="card-img-top" alt="image pub" />
+      <h1 class="my-5 text-center">{{ msg }}</h1>
+      <div class="button">
+        <button type="button" class="btn btn-danger btn-lg">
+          Média Texte photos
+        </button>
+        <button type="button" class="btn btn-success btn-lg">
+          Large button
+        </button>
+        <button type="button" class="btn btn-warning btn-lg">
+          Large button
+        </button>
+      </div>
+      <div class="container d-flex flex-wrap justify-content-center ">
+        <div class="row">
+          <div class="pub_video">
+            <video width="320" height="240" controls>
+              <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+              type=video/ogg> <source src="/build/videos/arcnet.io(7-sec).mp4"
+              type=video/mp4>
+            </video>
+
+            <video width="320" height="240" controls>
+              <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+              type=video/ogg> <source src="/build/videos/arcnet.io(7-sec).mp4"
+              type=video/mp4>
+            </video>
+
+            <video width="320" height="240" controls>
+              <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+              type=video/ogg> <source src="/build/videos/arcnet.io(7-sec).mp4"
+              type=video/mp4>
+            </video>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -37,20 +78,10 @@ a {
   display: flex;
   justify-content: space-around;
 }
-.pub {
-  display: flex;
-}
-/* .main_page {
 
-} */
-h1 {
+/* h1 {
   padding: 10px;
   padding-bottom: 40px;
-}
-
-/* .head_pub  {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  font-size: 80px;
 } */
 </style>

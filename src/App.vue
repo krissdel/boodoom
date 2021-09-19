@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <div class="img">
-      <img alt="Vue logo" src="./assets/boodoom-logo.png" />
-      <img src="./assets/pub.png" class="card-img-top" alt="image pub" />
+      <img alt="Vue logo" src="./assets/images/boodoom-logo.png" />
     </div>
     <MainPage msg="L'union fait la force... Faisons la ! " />
+    <router-view></router-view>
   </div>
 </template>
 
