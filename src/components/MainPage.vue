@@ -21,16 +21,18 @@
       </p>
 
       <h1 class="my-5 text-center">{{ msg }}</h1>
-      <div class="button">
-        <button type="button" class="btn btn-danger btn-lg">
-          Média Texte photos
-        </button>
-        <button type="button" class="btn btn-success btn-lg">
-          Large button
-        </button>
-        <button type="button" class="btn btn-warning btn-lg">
-          Large button
-        </button>
+      <div class="container my-5">
+        <div class="button">
+          <button type="button" class="btn btn-danger btn-lg">
+            Média Texte photos
+          </button>
+          <button type="button" class="btn btn-success btn-lg">
+            Média Télé Vidéos
+          </button>
+          <button type="button" class="btn btn-warning btn-lg">
+            Média Audio Musique
+          </button>
+        </div>
       </div>
       <div class="container d-flex flex-wrap justify-content-center ">
         <div class="row">
@@ -78,7 +80,11 @@ a {
   display: flex;
   justify-content: space-around;
 }
-
+/* .pub_video {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+} */
 /* h1 {
   padding: 10px;
   padding-bottom: 40px;
