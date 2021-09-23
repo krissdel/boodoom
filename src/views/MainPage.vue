@@ -22,18 +22,22 @@
 
       <h1 class="my-5 text-center">{{ msg }}</h1>
       <div class="button">
-        <button type="button" class="btn btn-success btn-sm">
-          Espace abonnée
-        </button>
+        <router-link to="/abonner">
+          <button type="button" class="btn btn-success btn-sm">
+            Espace abonnée
+          </button>
+        </router-link>
         <button type="button" class="btn btn-danger btn-sm">
           Espace média pro
         </button>
       </div>
       <div class="container my-5">
         <div class="button">
-          <button type="button" class="btn btn-danger btn-lg">
-            Média Texte photos
-          </button>
+          <router-link to="/MediaText">
+            <button type="button" class="btn btn-danger btn-lg">
+              Média Texte photos
+            </button>
+          </router-link>
           <button type="button" class="btn btn-success btn-lg">
             Média Télé Vidéos
           </button>
