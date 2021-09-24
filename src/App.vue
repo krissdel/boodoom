@@ -4,17 +4,20 @@
       <img alt="Vue logo" src="./assets/images/boodoom-logo.png" />
     </div>
     <MainPage msg="L'union fait la force... Faisons la ! " />
-    <router-view></router-view>
+    <!-- <router-view></router-view> -->
+    <Footer />
   </div>
 </template>
 
 <script>
 import MainPage from "./components/MainPage.vue";
-
+// import footer from "@/components/footer";
+import Footer from "./components/footer.vue";
 export default {
   name: "App",
   components: {
     MainPage,
+    Footer,
   },
 };
 </script>
