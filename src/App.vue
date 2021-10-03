@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <div class="img">
-      <img alt="Vue logo" src="./assets/images/boodoom-logo.png" />
-    </div>
+    <Logo />
+
     <MainPage msg="L'union fait la force... Faisons la ! " />
     <!-- <router-view></router-view> -->
     <Footer />
@@ -11,13 +10,15 @@
 
 <script>
 import MainPage from "./components/MainPage.vue";
-// import footer from "@/components/footer";
-import Footer from "./components/footer.vue";
+// import Footer from "./components/Footer.vue";
+import Footer from "./components/Footer.vue";
+import Logo from "@/components/Logo";
 export default {
   name: "App",
   components: {
     MainPage,
     Footer,
+    Logo,
   },
 };
 </script>

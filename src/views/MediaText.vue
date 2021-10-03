@@ -1,12 +1,14 @@
 <template>
-  <h3>MEdia Texte</h3>
+  <MediaText />
 </template>
 
 <script>
-// import Name from "@/components/Name.vue";
+import MediaText from "./components/MediaText.vue";
 
 export default {
   name: "MediaText",
-  components: {},
+  components: {
+    MediaText,
+  },
 };
 </script>
