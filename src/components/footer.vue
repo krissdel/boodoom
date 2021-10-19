@@ -82,7 +82,7 @@
             <!--  -->
           </ul>
           <div class="small text-center text-muted fst-italic">
-            Copyright © delormechrist Website 2021
+            Copyright © eelDigit 2021
           </div>
         </div>
       </div>
@@ -92,7 +92,7 @@
 
 <script>
 export default {
-  name: "footer",
+  name: "Footer",
 };
 </script>
 

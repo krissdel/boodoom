@@ -10,7 +10,6 @@
 
 <script>
 import MainPage from "./components/MainPage.vue";
-// import Footer from "./components/Footer.vue";
 import Footer from "./components/Footer.vue";
 import Logo from "@/components/Logo";
 export default {
